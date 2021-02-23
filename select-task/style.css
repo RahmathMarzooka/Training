@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family:monospace;
+   color: aqua;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.difficulty{
+    font-size: 30px;
+    padding-right: 4px;
+}
+.select{
+    font-size: 18px;
+    outline:0;
+    border-color: aqua;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.display{
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+    color:aqua;
+    font-size:35px;
+}
